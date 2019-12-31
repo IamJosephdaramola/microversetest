@@ -1,14 +1,18 @@
-nav {
-    top: 0;
-    position: fixed;
-
+header {
+	height: 100vh;
 }
 
+nav {
+	top: 0;
+	position: fixed;
+}
 
-ul { display: flex;}
+ul {
+	display: flex;
+}
 
-@media (max-width: 600px) { 
-    header {
-        font-size: 20px;
-    }
+@media (max-width: 600px) {
+	header {
+		font-size: 20px;
+	}
 }
