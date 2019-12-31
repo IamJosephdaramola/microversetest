@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<script src="css/style.css"></script>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -17,7 +18,7 @@
 			/>
 
 			<nav id="nav-bar">
-				<ul>
+				<ul  style="display: flex;">
 					<li><a class="nav-link" href="#product"> Product Video</a></li>
 					<li><a class="nav-link" href="#about">About</a></li>
 					<li><a class="nav-link" href="#contact">Contact</a></li>
@@ -35,8 +36,9 @@
 			<h1>About section</h1>
 		</section>
 		<section id="contact">
-			<form id="form">
-				<input type="email" id="email" />
+			<form action="#" id="form">
+				<input type="email" id="email" name="email" placeholder="enter your email" required>
+				<input type="submit" id="submit" value="submit">
 			</form>
 		</section>
 
